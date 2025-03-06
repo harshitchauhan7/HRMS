@@ -1,0 +1,73 @@
+/* Apply a full-page gradient background */
+.container {
+    text-align: center;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #e9ebed, #00c6ff); /* Blue gradient */
+    color: rgb(18, 18, 18);
+}
+
+/* Button container with two columns */
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+/* Column styling */
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background: rgba(248, 245, 245, 0.2); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    backdrop-filter: blur(5px); /* Adds a glassmorphism effect */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Buttons styling */
+.button {
+    background-color: white;
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    transform: scale(1.05);
+}
+
+/* Logout button styling */
+.logoutWrapper {
+    margin-top: 30px;
+}
+
+.logoutButton {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 200px;
+    transition: all 0.3s ease;
+}
+
+.logoutButton:hover {
+    background-color: #a71d2a;
+    transform: scale(1.05);
+}

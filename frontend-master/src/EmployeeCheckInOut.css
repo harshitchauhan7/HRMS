@@ -1,0 +1,57 @@
+.checkin-container {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 10px;
+    background: #f8f9fa;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+.employee-input {
+    width: 80%;
+    padding: 8px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button-group {
+    margin-top: 15px;
+}
+
+.checkin-btn, .checkout-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.checkin-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.checkout-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.checkin-btn:disabled, .checkout-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
